@@ -21,13 +21,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
-        working-directory: ./dockercicdtest
+    #  - name: Install dependencies
+    #    run: npm install
+    #    working-directory: ./dockercicdtest
 
-      - name: Run build
-        run: npm run build
-        working-directory: ./dockercicdtest
+    #  - name: Run build
+    #    run: npm run build
+    #    working-directory: ./dockercicdtest
 
       - name: Build Docker image
         run: |
