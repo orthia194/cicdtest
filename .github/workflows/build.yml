@@ -31,7 +31,7 @@ jobs:
 
       - name: Run tests
         run: npm test
-        working-directory: ./dockercicdtestㄴ
+        working-directory: ./dockercicdtest
 
       - name: Build Docker image
         run: |
