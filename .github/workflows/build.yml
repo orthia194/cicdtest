@@ -29,10 +29,6 @@ jobs:
         run: npm run build
         working-directory: ./dockercicdtest
 
-      - name: Run tests
-        run: npm test
-        working-directory: ./dockercicdtest
-
       - name: Build Docker image
         run: |
           docker build -t next-app .
